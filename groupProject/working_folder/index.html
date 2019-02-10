@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity - LTF</title>
+
+    <!--Remy Sharp Shim -->
+    <!--[if lte IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript" >
+    </script>
+    <![endif]-->
+
+	<!-- RESPONSIVENESS
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- FONTS
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+	<!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="css/normalize.css" type="text/css" rel="stylesheet">
+	<link href="css/skeleton.css" type="text/css" rel="stylesheet">
+
+	<!-- FAVICON
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+	<div class="container">
+    	<header class = "eleven columns" style="margin-top: 1%">
+	        <a href="groupProject.html" ><img src="images/logo.png" alt="logo"></a>
+			<a href="https://www.facebook.com/" target = "_blank"><img src="images/facebook.png" alt="Facebook"></a>
+			<a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter"></a>
+			<a href="https://www.instagram.com/" target = "_blank"><img src="images/instagram.png" alt="Instagram"></a>
+		</header>
+		<nav>
+            <label for="show-menu" class="show-menu">MENU</label>
+            <input type="checkbox" id="show-menu" role="button">
+            <ul id="menu" class = "test">
+				<li><a href="login.html">LOGIN</a></li>
+                <li><a href="index.html">INDEX</a></li>
+                <li><a href="activity.html">ACTIVITY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav> <!--end of nav-->
+
+
+    <div class="row">
+      <div class="six columns" style="margin-top: 4%">
+        <h4>Monthly Data</h4>
+
+          <p>This is a placeholder for the container where user's monthly data will be shown</p>
+          <ul>
+           <li>  Active hrs/day:</li>
+          <li>Calories consumed/day:</li>
+          <li>Calories burned a day:</li>
+              </ul>
+
+      </div> <!--ended activity summary-->
+
+        <!--Client Phonto containter --------------------->
+         <div class="six columns" style="margin-top: 4%">
+          <img src = "images/runner.jpg" alt = "runner">
+        </div><!--End of Client Phonto containter --------------------->
+    </div> <!--end first row-->
+
+      <div class="row"> <!--second row-->
+      <div class="eleven columns" style="margin-top: 5%">
+        <h4>Daily Activity Update Form</h4>
+          <!--Input info form--->
+    <form action="datamodel.php" method="post">
+
+    <label for="exampleEmailInput">Today's weight (lbs): </label>
+      <input class="u-full-width" type="number" placeholder="130" id="exampleEmailInput" name = "weight">
+
+
+      <label for="exampleEmailInput">Your Calorie Intake</label>
+      <input class="u-full-width" type="number" placeholder="1800" id="exampleEmailInput" name = "calIntake">
+
+
+      <label for="exampleRecipientInput"> Calories Burned: </label>
+      <input class="u-full-width" type="number" placeholder="500" id="exampleEmailInput" name = "calBurned">
+
+  <label for="exampleRecipientInput"> Workout type today: </label>
+      <input class="u-full-width" type="text" placeholder="running" id="exampleEmailInput" name = "type">
+
+    <label for="exampleRecipientInput"> Activity level: </label>
+      <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Light (HR 90 - 120 bpm) </option>
+        <option value="Option 2">Moderate (HR 121 - 140 bpm)</option>
+        <option value="Option 3">Intense (HR 141 - 160 bpm)</option>
+      </select>
+
+
+    <label for="exampleRecipientInput"> Time working out: </label>
+         <input class="u-full-width" type="text" placeholder="60" id="exampleEmailInput" name = "time">
+    <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Min</option>
+        <option value="Option 2">Hours</option>
+
+      </select>
+
+              <label for="exampleRecipientInput"> Hours of sleep? </label>
+      <input class="u-full-width" type="number" placeholder="8" id="exampleEmailInput" name = "sleep">
+
+  <input class="button-primary" type="submit" value="Submit">
+</form>
+
+      <!----------------------------------------------------->
+  </div><!--ended column-->
+      </div>  <!--end second row-->
+
+
+    <!------------------------------------------------------->
+    <div> <!-- started third row-->
+      <div class="eleven columns" style="margin-top: 3%">
+        <h5>Placeholder</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consectetur vulputate iaculis. Integer tortor urna, dignissim euismod suscipit vitae, tincidunt et nisl. Aliquam vitae nisl hendrerit, congue diam pharetra, tempor sapien. Aenean nec turpis facilisis, egestas lorem ac, hendrerit ante. Pellentesque iaculis imperdiet justo, ac bibendum nunc feugiat ut. In congue velit interdum erat maximus, eget elementum sapien suscipit. Fusce eu nibh sit amet arcu ultricies posuere. Curabitur eleifend fermentum eros, ac porta neque tristique nec. Aenean dolor lorem, sagittis nec placerat luctus, mattis sit amet justo. Ut a magna a orci eleifend maximus id vestibulum enim. Fusce sed elementum arcu, non pellentesque arcu. Aliquam varius nulla sit amet justo finibus tristique. Nam euismod ipsum eu leo euismod varius. Vivamus ac metus tempor, posuere felis eget, pharetra nisl. Suspendisse bibendum sem erat, non porttitor diam finibus non.
+
+          </p>
+        </div>
+
+      </div> <!--started third row-->
+
+   <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <footer>
+	  <ul class = "test">
+		  <li>Copyright 2019 &copy;</li>
+		  <li>All Rights Reserved</li>
+		  <li>Designed by 4AwePro</li>
+	  </ul>
+  </footer> <!--end of footer-->
+     </div>
+</body>
+</html>

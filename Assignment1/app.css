@@ -1,0 +1,54 @@
+/* Assignment 1's CSS*/
+
+* {
+	padding:0;
+	margin: 0;
+  }
+
+
+  h1 {
+  	color: #008B8B;
+  	font-family:verdana, Helvetica, arial;
+  	margin-bottom: 7px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  	width: 550px;
+  	float: left;
+  	line-height:1.5;
+	 font-size:1em;
+	 background-color: white;
+  }
+
+  img {
+  	float: right;
+  	width: 300px;
+  	padding: 10px;
+  	margin: 0 0 10px 10px;
+  	border: 5px solid #008B8B;
+  }
+
+  header {
+  	margin-bottom: 40px;
+  	text-align: center;
+  	background-color: #C0C0C0;
+  }
+
+  #wrapper {
+  	height: 600px;
+  	width: 960px;
+  	margin: 0 auto 0 auto;
+  	background-color: #fff9e5;
+  	overflow: hidden;
+  	padding: 20px;
+  }
+
+  button {
+	margin-top: 25%; 
+  	font-size: 20px;
+  	padding: 12px 28px;
+  	position: absolute;
+  	left: 50%;
+  	transform: translate(-50%, 0);
+  }
